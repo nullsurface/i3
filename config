@@ -9,8 +9,6 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-# Wallpaper
-
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -213,3 +211,12 @@ exec --no-startup-id xrandr --output DisplayPort-1 --primary --mode 1920x1080 --
 # Run Wallpaper Script
 exec --no-startup-id $wallpaper
 
+# FireFox 
+set $firefox /bin/firefox
+bindsym $mod+Shift+f exec $firefox
+
+# Set DBUS_SESSION_BUS_ADDRESS env variable
+set $dbus-addr sh ~/.config/i3/get-debus-addr.sh
+
+# Run dbus env varible Script
+exec --no-startup-id $dbus-addr

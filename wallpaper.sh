@@ -1,1 +1,1 @@
-feh --bg-fill ~/Pictures/ILOVEYOUNASA.png
+feh --bg-fill ~/.config/i3/ILOVEYOUNASA.png
