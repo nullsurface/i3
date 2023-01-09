@@ -215,6 +215,10 @@ exec --no-startup-id $wallpaper
 set $firefox /bin/firefox
 bindsym $mod+Shift+f exec $firefox
 
+# FireFox 
+set $thunderbird /bin/thunderbird
+bindsym $mod+Shift+t exec $thunderbird
+
 # Set DBUS_SESSION_BUS_ADDRESS env variable
 set $dbus-addr sh ~/.config/i3/get-debus-addr.sh
 
